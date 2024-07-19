@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = "http://localhost:8000"
+const baseURL = "https://product-demo-backend.vercel.app"
 
 const axiosClient = axios.create({ baseURL });
 
