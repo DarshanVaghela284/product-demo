@@ -27,7 +27,7 @@ const App = () => {
         <div className="flex mb-4 justify-between items-center">
           <input
             type="text"
-            className="text-gray-400 rounded-md h-12 outline-none shadow-md p-4 w-[200px] md:w-[300px]"
+            className="rounded-md h-12 outline-none shadow-md p-4 w-[200px] md:w-[300px]"
             placeholder="Search..."
             onChange={(e) => debouncedSearch(e.target.value)}
           />
